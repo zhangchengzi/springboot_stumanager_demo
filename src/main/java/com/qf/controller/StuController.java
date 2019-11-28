@@ -31,4 +31,10 @@ public class StuController {
 
         return "redirect:/stu/list";
     }
+
+    @RequestMapping("/update")
+    public String update(Integer id) {
+
+        return null;
+    }
 }
